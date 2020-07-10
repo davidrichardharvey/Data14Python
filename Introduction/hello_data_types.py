@@ -1,18 +1,13 @@
-a = "Aardvark"
-b = "Bat"
-c = "Cheshire Cat"
-d = 5
+# Boolean
 
-print(a + ", " + b + ", " + c + " " + str(d))
+x = 0
+y = "very large number"
+z = ""
 
+print(bool(x))
+print(bool(y))
+print(bool(z))
 
-print(f"{a}, {b}, {c} {d}")
+n = None
 
-
-name = "David"
-print("Hello my name is " + name + "!")
-
-print(f"Hello, my name is {name}!")
-
-
-# Name, age, number of siblings, favourite decimal number, favourite animal
+print(None == None)
